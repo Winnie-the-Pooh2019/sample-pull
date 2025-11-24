@@ -18,21 +18,5 @@ public class HelloController {
 
     private boolean isRight = true;
 
-    public void onArrowButtonClick(ActionEvent event) {
-        if (isRight) {
-            String text = leftText.getText();
-            rightText.setText(text);
-            leftText.setText("");
-            arrowButton.setText("←");
-        } else {
-            String text = rightText.getText();
-            leftText.setText(text);
-            rightText.setText("");
-            arrowButton.setText("→");
-        }
 
-        leftText.setDisable(isRight);
-        isRight = !isRight;
-        rightText.setDisable(isRight);
-    }
 }
