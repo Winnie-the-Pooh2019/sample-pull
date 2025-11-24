@@ -6,7 +6,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo10.HelloController">
    <children>
-      <Button fx:id="arrowButton" layoutX="277.0" layoutY="256.0" mnemonicParsing="false" text="→" textAlignment="CENTER">
+      <Button fx:id="arrowButton" layoutX="300.0" layoutY="260.0" mnemonicParsing="false" onAction="#onArrowButtonClick" text="→" textAlignment="CENTER">
          <font>
             <Font name="Consolas Italic" size="24.0" />
          </font>
